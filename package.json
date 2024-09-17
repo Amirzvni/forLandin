@@ -1,0 +1,29 @@
+{
+  "name": "fatify",
+  "version": "1.0.0",
+  "description": "fastify backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch '**/*.js' '**/*.ts' app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Amir Rezvani",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.4.1",
+    "@fastify/rate-limit": "^9.0.1",
+    "close-with-grace": "^1.2.0",
+    "fastify": "^4.25.1",
+    "fastify-autoload": "^3.13.0",
+    "fastify-cli": "^5.9.0",
+    "fastify-cors": "^3.0.3",
+    "fastify-jwt": "^4.2.0",
+    "fastify-multipart": "^5.4.0",
+    "fastify-mysql": "^2.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment-timezone": "^0.5.43",
+    "nodemon": "^3.0.2",
+    "uuid": "^9.0.1"
+  }
+}

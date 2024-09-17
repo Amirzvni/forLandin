@@ -1,0 +1,84 @@
+{
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "files.associations": {
+        "*.scss": "postcss"
+    },
+    "files.autoSave": "onFocusChange",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "html-css-class-completion.enableEmmetSupport": true,
+    "window.title": "${dirty}${activeEditorShort}${separator}${activeFolderLong}${separator}${appName}",
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on",
+        "other": "on"
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "workbench.editor.enablePreview": false,
+    "editor.insertSpaces": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "caseSensitive": true,
+    "wholeWords": true,
+    // "files.autoSaveDelay": 1000,
+    // "files.autoSave": "afterDelay",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#04586b",
+        "editor.selectionHighlightBackground": "#00277b",
+        "[Dracula At Night]": {
+            "sideBar.background": "#000000",
+            "panel.background": "#000000",
+            "editor.background": "#000000",
+            "terminal.background": "#000000",
+            "sideBar.foreground": "#fcffd0c5"
+        },
+        "[Dracula Soft]": {
+            "sideBar.background": "#000000",
+            "panel.background": "#000000",
+            "editor.background": "#000000",
+            "terminal.background": "#000000",
+            "sideBar.foreground": "#fcffd0c5"
+        },
+        "[Monokai Pro (Filter Spectrum)]": {
+            "sideBar.background": "#000000",
+            "panel.background": "#000000",
+            "editor.background": "#000000",
+            "terminal.background": "#000000",
+            "terminal.foreground": "#faffcd",
+            "terminal.ansiBrightGreen": "#3f5913",
+            "sideBar.foreground": "#97d2eec5"
+        },
+        "[Dracula]": {
+            "editor.background": "#000000",
+            "sideBar.background": "#000000",
+            "terminal.background": "#000000",
+        },
+        "[Abyss]": {
+            "editor.background": "#09090643",
+            "sideBar.background": "#000000",
+            "terminal.background": "#000000",
+        }
+    },
+    "editor.tabSize": 4,
+    "editor.detectIndentation": true,
+    "editor.fontSize": 14,
+    "editor.autoIndent": "advanced",
+    "editor.formatOnSave": false,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": false,
+    "javascript.suggest.autoImports": true,
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "terminal.integrated.fontSize": 14,
+    // "terminal.integrated.fontFamily": "monospace",
+    "typescript.referencesCodeLens.enabled": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.inlineSuggest.showToolbar": "always",
+}
